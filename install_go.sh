@@ -6,4 +6,4 @@ if [[ -d /usr/local ]]
 then
     rm -rf /usr/local/go
 fi
-tar -C /usr/local -xzf go${VERSION}.linux-amd${ARCH}.tar.gz
+tar -C /usr/local -xzf go${VERSION}.linux-${ARCH}.tar.gz
